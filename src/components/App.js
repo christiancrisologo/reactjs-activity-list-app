@@ -81,7 +81,7 @@ export class App extends Component {
                 ...this.state.activities,newActivity
             ]
         } )
-         console.log('add activity ',newActivity);
+         console.log('add activity == ',newActivity);
     }
 
     render() {
